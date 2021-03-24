@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Salman\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jdk-9.0.1\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\OpenVPN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Salman\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Salman\.windows-build-tools\python27\;C:\Users\Salman\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Salman\AppData\Local\Programs\Python\Python38-32\;C:\Users\Salman\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Salman\AppData\Local\Programs\Python\Python37-32\;C:\Users\Salman\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Salman\AppData\Local\Programs\Python\Python36-32\;C:\Users\Salman\AppData\Local\Microsoft\WindowsApps;C:\Users\Salman\AppData\Local\atom\bin;C:\Users\Salman\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Salman\AppData\Local\Pandoc\;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin;C:\Users\Salman\AppData\Roaming\npm;C:\Users\Salman\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;;C:\Users\Salman\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  14.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (C:\Users\Salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\Salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\Salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67017:16)
+      at Request.emit (events.js:314:20)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\Salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141542:10)
+      at ClientRequest.emit (events.js:314:20)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:640:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:509:22)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^12.0.0",
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "5.11.2",
+      "@react-navigation/native": "~5.8.10",
+      "@react-navigation/stack": "~5.12.8",
+      "expo": "~40.0.0",
+      "expo-asset": "~8.2.1",
+      "expo-constants": "~9.3.0",
+      "expo-font": "~8.4.0",
+      "expo-linking": "~2.0.0",
+      "expo-splash-screen": "~0.8.0",
+      "expo-status-bar": "~1.0.3",
+      "expo-web-browser": "~8.6.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-safe-area-context": "3.1.9",
+      "react-native-screens": "~2.15.0",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-native": "~0.63.2",
+      "jest-expo": "~40.0.0",
+      "typescript": "~4.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
